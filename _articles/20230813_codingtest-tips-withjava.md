@@ -25,3 +25,5 @@ stream을 사용하면 유용한 경우가 많다.
 ```java
 filter사용시 2중루프 되버림
 ```
+
+### list to array, array to list.
