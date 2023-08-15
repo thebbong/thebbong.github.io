@@ -53,4 +53,8 @@ Nam eleifend lorem nisi, id venenatis mauris ultricies quis. Duis finibus nulla 
 Nulla hendrerit purus aliquam sem malesuada sodales. Nulla ultrices, arcu in mollis consectetur, mauris justo faucibus tortor, ac pretium leo lectus id libero. Suspendisse blandit rhoncus viverra. Curabitur mattis, lacus ac iaculis hendrerit, mauris sapien ullamcorper nulla, sit amet laoreet urna elit in dolor. Nulla fermentum porttitor tortor, eget sagittis elit mollis nec.
 
 [^1]: Vestibulum turpis ligula, imperdiet eu molestie vitae, viverra sit amet est.
+<<<<<<< HEAD
 [^2]: Phasellus auctor vehicula auctor.
+=======
+[^2]: Phasellus auctor vehicula auctor.
+>>>>>>> upstream/master
