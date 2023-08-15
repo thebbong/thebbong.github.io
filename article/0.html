@@ -1,0 +1,89 @@
+<!doctypehtml>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>코딩테스트 관련 팁 with JAVA</title>
+
+  <meta name="viewport"content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible"content="ie=edge">
+
+  <link rel="shortcut icon"href="../assets/icons8-buddha-96.1b87ea0d.png"type="image/x-icon">
+  <link rel="preload"href="../styles/article.css"as="style">
+  <link rel="stylesheet"href="../styles/article.css">
+</head>
+<body>
+  <header id="top-container"role="navigation">
+    <nav>
+  <a class="logo-link"href="/">
+    <h1>Hello</h1>
+    <span>안녕하세요</span>
+  </a>
+  <small>
+    <a id="about"class="info-link"href="/about.html">👀About</a> /
+    <a id="works"class="info-link"href="/works.html">🔥Works</a> /
+    <a id="articles"class="info-link"href="/articles.html">📚Articles</a>
+  </small>
+</nav>
+
+  </header>
+  <main id="main-container">
+    <article id="article-container">
+      <h1 id="article-title">
+        코딩테스트 관련 팁 with JAVA
+      </h1>
+      
+        <h2 id="article-subtitle">
+          좌표 및 등등
+        </h2>
+      
+      <time id="article-date">
+        2023.08.13
+      </time>
+      <section id="article-content-container">
+        <details><summary>Table of Contents</summary>
+<p><div class="table-of-contents"><ul><li><a href="#%EC%A2%8C%ED%91%9C%EA%B4%80%EB%A0%A8-%EB%AC%B8%EC%A0%9C%EB%8A%94-%EC%A2%8C%ED%91%9C%EB%B0%B0%EC%97%B4%EC%9D%84-%EC%82%AC%EC%9A%A9.">좌표관련 문제는 좌표배열을 사용.</a><li><a href="#%EA%B4%84%ED%98%B8%EC%9D%98-input%EC%9D%B4-%EC%9E%88%EB%8B%A4%EB%A9%B4-stack%EB%AC%B8%EC%A0%9C%EC%9D%BC-%ED%99%95%EB%A5%A0%EC%9D%B4-%EB%86%92%EB%8B%A4.">괄호의 Input이 있다면 Stack문제일 확률이 높다.</a><li><a href="#stream">stream</a><ul><li><a href="#stream%EC%9D%B4-%EB%A7%8C%EB%8A%A5%EC%9D%80-%EC%95%84%EB%8B%88%EB%8B%A4.">stream이 만능은 아니다.</a><li><a href="#list-to-array%2C-array-to-list.">list to array, array to list.</a></ul></ul></div><p></p>
+</details>
+<blockquote>
+<p>코딩테스트 관련하여 알아두면 좋을만한 것들.</p>
+</blockquote>
+<h2 id="%EC%A2%8C%ED%91%9C%EA%B4%80%EB%A0%A8-%EB%AC%B8%EC%A0%9C%EB%8A%94-%EC%A2%8C%ED%91%9C%EB%B0%B0%EC%97%B4%EC%9D%84-%EC%82%AC%EC%9A%A9."tabindex="-1">좌표관련 문제는 좌표배열을 사용.</h2>
+<pre class="hljs"><code><span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">int</span>[] directX = {<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, -<span class="hljs-number">1</span>, <span class="hljs-number">1</span>}; <span class="hljs-comment">//상 하 좌 우</span>
+<span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">int</span>[] directY = {-<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>}; <span class="hljs-comment">//상 하 좌 우</span>
+</code></pre>
+<p>위와 같이 선언하고 이동 할 때마다 X,Y좌표값을 변경해주면 직관적으로 알 수 있고, 디버깅도 쉽다.</p>
+<h2 id="%EA%B4%84%ED%98%B8%EC%9D%98-input%EC%9D%B4-%EC%9E%88%EB%8B%A4%EB%A9%B4-stack%EB%AC%B8%EC%A0%9C%EC%9D%BC-%ED%99%95%EB%A5%A0%EC%9D%B4-%EB%86%92%EB%8B%A4."tabindex="-1">괄호의 Input이 있다면 Stack문제일 확률이 높다.</h2>
+<p>대표적인 괄호가 올바른가의 문제를 비롯하여 대부분이 스택자료구조에 쓰이기가 좋기 때문에</p>
+<h2 id="stream"tabindex="-1">stream</h2>
+<p>stream을 사용하면 유용한 경우가 많다.</p>
+<h3 id="stream%EC%9D%B4-%EB%A7%8C%EB%8A%A5%EC%9D%80-%EC%95%84%EB%8B%88%EB%8B%A4."tabindex="-1">stream이 만능은 아니다.</h3>
+<pre class="hljs"><code>filter사용시 <span class="hljs-number">2</span>중루프 되버림
+</code></pre>
+<h3 id="list-to-array%2C-array-to-list."tabindex="-1">list to array, array to list.</h3>
+
+      </section>
+      <section id="article-navigation">
+        
+          <div class="article-navigation-item article-navigation-next">
+            <a href="/article/1.html">
+              <div class="article-navigation-arrow article-navigation-next">＜</div>
+              <div class="article-navigation-content article-navigation-next">
+                <p class="article-navigation-title">Lorem ipsum 0</p>
+                <p class="article-navigation-subtitle">Sed sit amet arcu a diam tincidunt porta</p>
+              </div>
+            </a>
+          </div>
+        
+        
+      </section>
+      <section id="article-comments">
+        <script async src="https://utteranc.es/client.js"repo="thebbong/thebbong.github.io-comments"issue-term="pathname"theme="github-light"crossorigin="anonymous"></script>
+      </section>
+      <section id="article-list-button-container">
+        <a href="/articles.html">
+          <div id="article-list-button">📚</div>
+        </a>
+      </section>
+    </article>
+  </main>
+
+
